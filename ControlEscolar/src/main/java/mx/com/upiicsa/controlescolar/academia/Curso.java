@@ -19,6 +19,7 @@ public class Curso {
     
     public Curso(){
         alumnos = new ArrayList<>();//Instancia de ArrayList
+        System.out.println("---------------->Constructor Curso");
     }
 
     public Materia getMateria() {
